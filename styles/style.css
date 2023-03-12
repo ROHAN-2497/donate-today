@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+    margin: 0;
+    padding-top: 24px;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    background-color: bisque;
+    background-image: url(../images/donation1.jpg);
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.banner-title {
+    color: aliceblue;
+}
+
+.banner-description {
+    color: aliceblue;
+}
+
+.btn-primary {
+    margin-top: 30px;
+    background-color: orangered;
+    border: 0;
+    height: 30px;
+
+}
+
+.donate-section {
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+}
+
+.donate {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.donate-today-price {
+
+    justify-content: space-around;
+    text-decoration: darkslategrey;
+    text-align: center;
+    display: flex;
+    background: #FAFAFA;
+    border-radius: 5px;
+}
+
+.box-price {
+    gap: 75px;
+    display: flex;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.box-color {
+    border: solid 2px red;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    background: #FFEEEE;
+    width: 136px;
+    height: 123px;
+    left: 489px;
+    top: 979px;
+}
+
+.box-down {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.donate-plane {
+    text-align: center;
+
+}
+
+.donate-title {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.food-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.food-description {
+    font-size: 25px;
+}
+
+.food-container {
+    display: flex;
+  
+  
+}
+.food-family{
+   
+}
+.food {
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 360px;
+    height: 352px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    margin-left: 250px
+}
+
+.food-2 {
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 360px;
+    height: 352px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    margin-left: 250px
+}
+
+.food-3 {
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 360px;
+    height: 352px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    margin-left: 250px;
+}
+.depend-man{
+ 
+    width: 300px;
+    height: 200px;
+    margin-left: 600px;
+  
+}
+.depend{
+
+    background: url(../images/donation2.jpg);
+    background-repeat: no-repeat;
+}
