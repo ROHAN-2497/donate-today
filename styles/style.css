@@ -1,150 +1,149 @@
 * {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 .banner {
-    margin: 0;
-    padding-top: 24px;
-    height: 400px;
-    width: 100%;
-    text-align: center;
-    background-color: bisque;
-    background-image: url(../images/donation1.jpg);
-    background-size: cover;
-    margin-bottom: 30px;
+  margin: 0;
+  padding-top: 24px;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  background-color: bisque;
+  background-image: url(../images/donation1.jpg);
+  background-size: cover;
+  margin-bottom: 30px;
 }
 
 .banner-title {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .banner-description {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .btn-primary {
-    margin-top: 30px;
-    background-color: orangered;
-    border: 0;
-    height: 30px;
-
+  color: #fafafa;
+  background-color: orangered;
+  border: 0;
+  padding: o;
+  height: 30px;
 }
 
 .donate-section {
-    margin: auto;
-    width: 70%;
-    padding: 20px;
-    text-align: center;
+  margin: auto;
+  width: 70%;
+  padding: 20px;
+  text-align: center;
 }
 
 .donate {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .donate-today-price {
-
-    justify-content: space-around;
-    text-decoration: darkslategrey;
-    text-align: center;
-    display: flex;
-    background: #FAFAFA;
-    border-radius: 5px;
+  justify-content: space-around;
+  text-decoration: darkslategrey;
+  text-align: center;
+  display: flex;
+  background: #fafafa;
+  border-radius: 5px;
 }
 
 .box-price {
-    gap: 75px;
-    display: flex;
-    font-weight: 700;
-    font-size: 30px;
+  gap: 75px;
+  display: flex;
+  font-weight: 700;
+  font-size: 30px;
 }
 
 .box-color {
-    border: solid 2px red;
-    border: 2px solid #FF5959;
-    border-radius: 5px;
-    background: #FFEEEE;
-    width: 136px;
-    height: 123px;
-    left: 489px;
-    top: 979px;
+  border: solid 2px red;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+  background: #ffeeee;
+  width: 136px;
+  height: 123px;
+  left: 489px;
+  top: 979px;
 }
 
 .box-down {
-    margin-top: 24px;
-    margin-bottom: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .donate-plane {
-    text-align: center;
-
+  text-align: center;
 }
 
 .donate-title {
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-
-.food-title {
-    font-weight: 700;
-    font-size: 30px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.food-description {
-    font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .food-container {
-    display: flex;
-  
-  
+  display: flex;
+  justify-content: space-evenly;
 }
-.food-family{
-   
+.food-family {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80%;
 }
 .food {
-    border-radius: 20px;
-    margin-top: 30px;
-    width: 360px;
-    height: 352px;
-    background: rgba(79, 157, 166, 0.1);
-    border-radius: 5px;
-    margin-left: 250px
+  border-radius: 20px;
+  width: 26%;
+  padding: 20px;
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+}
+.food h2 {
+  font-size: 18px;
+  padding: 20px 0 20px 0;
+}
+.food p {
+  font-size: 14px;
+}
+/* section depend */
+
+.depend {
+  display: flex;
+  justify-content: center;
 }
 
-.food-2 {
-    border-radius: 20px;
-    margin-top: 30px;
-    width: 360px;
-    height: 352px;
-    background: rgba(79, 157, 166, 0.1);
-    border-radius: 5px;
-    margin-left: 250px
+.depend-man {
+  height: 200px;
+  width: 300px;
+  padding: 20px;
 }
-
-.food-3 {
-    border-radius: 20px;
-    margin-top: 30px;
-    width: 360px;
-    height: 352px;
-    background: rgba(79, 157, 166, 0.1);
-    border-radius: 5px;
-    margin-left: 250px;
+/* servive styles */
+.servive {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
 }
-.depend-man{
- 
-    width: 300px;
-    height: 200px;
-    margin-left: 600px;
-  
+.servive-all {
+  height: 200px;
+  width: 300px;
+  padding: 20px;
 }
-.depend{
-
-    background: url(../images/donation2.jpg);
-    background-repeat: no-repeat;
+/* section update styles */
+.update{
+  margin-top: 20px;
+  text-align: center;
+}
+.contact{
+  padding-top: 20px;
+  background: #FFF8F3;
+  width: 500px;
+  height: 200px;
+  justify-content: center;
+}
+.form-2{
+  text-align: center;
 }
