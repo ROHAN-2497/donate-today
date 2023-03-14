@@ -27,8 +27,13 @@
   color: #fafafa;
   background-color: orangered;
   border: 0;
-  padding: o;
-  height: 30px;
+  padding: 20px;
+  padding: 10px;
+  width: 150px;
+}
+
+.btn-primary :hover{
+  background-color: rgb(14, 7, 4);
 }
 
 .donate-section {
@@ -59,16 +64,30 @@
   font-weight: 700;
   font-size: 30px;
 }
+.donet-price{
+  /* border: solid 2px rgba(233, 225, 225, 0.561); */
+  border-radius: 5px;
+  width: 136px;
+  height: 123px;
+  left: 489px;
+  top: 979px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #b8c9cea5;;
+}
 
 .box-color {
   border: solid 2px red;
-  border: 2px solid #ff5959;
   border-radius: 5px;
   background: #ffeeee;
   width: 136px;
   height: 123px;
   left: 489px;
   top: 979px;
+  align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .box-down {
@@ -133,17 +152,21 @@
   padding: 20px;
 }
 /* section update styles */
-.update{
+.update {
   margin-top: 20px;
   text-align: center;
 }
-.contact{
-  padding-top: 20px;
-  background: #FFF8F3;
-  width: 500px;
-  height: 200px;
+/* section form */
+.contact {
+  margin-top: 40px;
+  display: flex;
   justify-content: center;
 }
-.form-2{
-  text-align: center;
+.contact-box {
+  background: #ff5959;
+  width: 400px;
+  display: flex;
+  justify-content: center ;
+  padding: 20px 0 20px 0;
+  
 }
